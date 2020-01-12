@@ -8,6 +8,25 @@ background: "#7d669e"
 
 Fusce a metus eu diam varius congue nec nec sapien. Nunc convallis accumsan justo. **Pellentesque** habitant morbi [tristique](http://google.com) senectus et netus et malesuada fames ac turpis egestas. Donec malesuada vehicula lectus, viverra sodales ipsum gravida nec. _Integer gravida_ nisi ut magna mollis molestie. Nullam pharetra accumsan sagittis. Proin tristique rhoncus orci, eget vulputate nisi sollicitudin et. Quisque lacus augue, mollis non mollis et, ullamcorper in purus. Morbi et sem orci.
 
+```jsx
+import React from 'react';
+import Profile from '../Profile';
+import SocialLinks from '../SocialLinks';
+import MenuLinks from '../MenuLinks';
+
+import * as S from './styled';
+
+const Sidebar = () => (
+    <S.SidebarWrapper>
+        <Profile />
+        <SocialLinks />
+        <MenuLinks />
+    </S.SidebarWrapper>
+);
+
+export default Sidebar;
+```
+
 ## On deer horse aboard tritely yikes and much
 
 The Big Oxmox advised her not to do so, because there were thousands of
